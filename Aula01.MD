@@ -11,6 +11,13 @@ Dockers é uma virtualização da virtualização. O conteiner é uma virtualiza
 
 
 
+
+
+
+
+
+
+
 ## COMANDOS DO KATHARA:
 *V : criar dispositivos em tempo real
 *L : simula uma criação, sendo mais rápido e em tempo real
@@ -24,6 +31,13 @@ Dockers é uma virtualização da virtualização. O conteiner é uma virtualiza
 #### pc1[0] = A : 
 * Computador "pc1" na interface "1" no domínio de colisão "A"
 
+
+
+
+
+
+
+
 ## Outros tópicos sobre o Kathará mencionados em aula...
 * O kathará usa diretórios no modelo de árvore
 
@@ -35,6 +49,13 @@ Dockers é uma virtualização da virtualização. O conteiner é uma virtualiza
 * Comando startup : definição prévia das configurações da interface de rede. Salva uma rede criada, com os pc's com seus respectivos ip's, bem como roteadores e switchs.
 
 * Mv "Destino local" "Destino desejado"
+
+
+
+
+
+
+
 
 
 ## Importando uma rede já feita!
