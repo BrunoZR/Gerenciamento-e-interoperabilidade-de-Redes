@@ -1,6 +1,6 @@
 
 
-##Docker vs conteiners:
+## Docker vs conteiners:
 Dockers é uma virtualização da virtualização. O conteiner é uma virtualização.
 
 ## O kathará é um emulador com ferramentas de rede. Baseado no Docker
@@ -9,23 +9,23 @@ Dockers é uma virtualização da virtualização. O conteiner é uma virtualiza
 - Para lidar com isso, são utilizados domínios de colisões, que evita que certos computadores interfiram um no outro. Apesar disso, todos são capazes de se comunicar entre si.
 
 
-##Comandos do Kathara?
+## Comandos do Kathara?
 -V : criar dispositivos em tempo real
 -L: simula uma criação, sendo mais rápido e em tempo real
 - Comandos globais
 
 
-#COMANDOS DO KATHARA:
-##kathara check : conferir a versão
+# COMANDOS DO KATHARA:
+## kathara check : conferir a versão
 
-##kathara vstart -n pc1 --eth 0:A :
+## kathara vstart -n pc1 --eth 0:A :
 *Criando um computador pc1. Não pertencem à máquina virtual, mas sim ao conteiner
 *Lógica do comando : kathara v start -n "nome do pc" --interface de rede      número da interface/domínio de colisão
 
-##pc1[0] = A : 
+## pc1[0] = A : 
 *Computador "pc1" na interface "1" no domínio de colisão "A"
 
-#Outros tópicos sobre o Kathará mencionados em aula...
+# Outros tópicos sobre o Kathará mencionados em aula...
 * O kathará usa diretórios no modelo de árvore
 
 * Cuidado com pastas compartilhadas em um conteiner. O compartilhamento é geral, e o apagamento também
@@ -38,13 +38,13 @@ Dockers é uma virtualização da virtualização. O conteiner é uma virtualiza
 * Mv "Destino local" "Destino desejado"
 
 
-#Importando uma rede já feita!
+# Importando uma rede já feita!
 * Como importar uma topologia de rede já pronta?
 1-Baixe um arquivo
 2-Abra o terminal dentro da pasta com as configurações já feitas
 3-Execute o comando "kathara lstart".
 
-#EXECUTANDO COMANDOS PARA ENTENDER A REDE A PARTIR DE UM ELEMENTO DELA
+# EXECUTANDO COMANDOS PARA ENTENDER A REDE A PARTIR DE UM ELEMENTO DELA
 * comando ping: ping "ip destino" --> Confere a conectividade com o destino
 
 * ip route --> dá as rotas
