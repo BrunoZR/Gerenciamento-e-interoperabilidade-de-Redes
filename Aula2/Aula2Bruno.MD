@@ -38,7 +38,7 @@ Para acessar o arquivo de log de uma máquina, é preciso habilitar a pasta do h
 /shared -> Acessar pelo host
 /hosthome -> Acessar pelas máquinas
 
-##IMPORTANDO UMA REDE PRONTA
+## IMPORTANDO UMA REDE PRONTA
 Agora, para executar um laboratório exemplo completo, utilizamos os comandos do tipo L, visto que iremos realizar toda a configuração previa da máquina e depois subir toda a rede de uma vez.
 
 Considere a seguinte topologia:
