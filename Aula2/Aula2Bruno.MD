@@ -38,25 +38,32 @@ Para acessar o arquivo de log de uma máquina, é preciso habilitar a pasta do h
 /shared -> Acessar pelo host
 /hosthome -> Acessar pelas máquinas
 
+##IMPORTANDO UMA REDE PRONTA
 Agora, para executar um laboratório exemplo completo, utilizamos os comandos do tipo L, visto que iremos realizar toda a configuração previa da máquina e depois subir toda a rede de uma vez.
+
+Considere a seguinte topologia:
+
+![imagem pro bruno](https://github.com/fultramari/Gerenciamento-e-interoperabilidade-de-Redes/assets/174112183/fe1fcaa4-e820-4965-b587-d4bd767127f7)
 
 Interface é a placa de rede do dispositivo:
 r1[0]="A"
 r1[1]="B"
 r1[image]="kathara/base"
 
-Aqui, estamos definindo a interface 0 do roteador no domínio de colisão A, depois estamos definindo a interface 1 do roteador no domínio de colisão B, e por fim, definindo a imagem do dispositivo criado como a imagem base.
+* Aqui, estamos definindo a interface 0 do roteador no domínio de colisão A, depois estamos definindo a interface 1 do roteador no domínio de colisão B, e por fim, definindo a imagem do dispositivo criado como a imagem base.
 
-Quando tentamos acessar a interface 0 do roteador 1 através da interface 0 do pc1, conseguimos com sucesso. Contudo, quando tentamos acessar a interface 1 do roteador 1 através da interface 0 do pc1, não conseguimos.
+* Quando tentamos acessar a interface 0 do roteador 1 através da interface 0 do pc1, conseguimos com sucesso. Contudo, quando tentamos acessar a interface 1 do roteador 1 através da interface 0 do pc1, não conseguimos.
 Porque não é possível acessar interfaces em diferentes domínios?
 
-É uma questão de configuração. O computador foi configurado apenas na rede 195 e não consegue enviar pacote de dados para outras redes. Precisa adicionar um comando para que, caso ele não consiga alcançar a rede, ele manda para o roteador 1 que ele provavelmente vai saber o que fazer com isso. Basicamente, o que estamos criando é uma tabela de rotas estáticas.
-Tabela rotas estáticas -> Qualquer pacote destinado a algum ip específico, deve ser direcionado para outros dispositivo (no nosso caso, uma tabela de rota estática entre o pc1 e o r1.
-O r1 está na rede 195.11.14 e 100.0.0.9, então quando o pc1 enviou para a rede 100.0.0.9, ele não sabe o que fazer, então envia para o roteador1, que provavelmente sabe. Como o roteador 1 está conectado na rede 100.0.0.9, ele consegue receber o pacote de dados e transmitir para essa nova rede, constando como ativa.
+* É uma questão de configuração. O computador foi configurado apenas na rede 195 e não consegue enviar pacote de dados para outras redes. Precisa adicionar um comando para que, caso ele não consiga alcançar a rede, ele manda para o roteador 1 que ele provavelmente vai saber o que fazer com isso. Basicamente, o que estamos criando é uma tabela de rotas estáticas.
 
-O pc1 não consegue se comunicar com a interface de rede do r2. Para resolver isso, utiliza o tcpdump -tenni eth1 no roteador 2, para ele se conectar com o pc. Com esse comando, você consegue capturar e analisar o trafego de rede que passa por uma instância de rede em específico, nesse caso, o eth1.
+* Tabela rotas estáticas -> Qualquer pacote destinado a algum ip específico, deve ser direcionado para outros dispositivo (no nosso caso, uma tabela de rota estática entre o pc1 e o r1.
 
-Contudo, o PC1 conseguiu enviar os dados, o R2 recebeu, mas não teve pacote de resposta, então deu falha. Isso ocorre porque o R2 só tem rota para a rede 100.0.0.9 e 200, então é necessário configurar uma rota para alguma outra rede. Nesse caso, utilizamos o comando "ip route add 195.11.14.0/24 via 100.0.0.9 dev eth1". Nesse caso estamos dizendo que a rede "195.11.14.0/24" está acessível através da rede "100.0.0.9" e utilizando a interface "eth1", conforme o desenho esquemático.
+* O r1 está na rede 195.11.14 e 100.0.0.9, então quando o pc1 enviou para a rede 100.0.0.9, ele não sabe o que fazer, então envia para o roteador1, que provavelmente sabe. Como o roteador 1 está conectado na rede 100.0.0.9, ele consegue receber o pacote de dados e transmitir para essa nova rede, constando como ativa.
 
-O TCDUMP, em resumo, é um sniffer de rede, ou seja, ele recebe os pacotes mas não injeta eles. Em reusmo, ele é passivo na rede, captura todos os pacotes e consegue utilizá-los, mas se não está na rede, ele não dá retorno.
+* O pc1 não consegue se comunicar com a interface de rede do r2. Para resolver isso, utiliza o tcpdump -tenni eth1 no roteador 2, para ele se conectar com o pc. Com esse comando, você consegue capturar e analisar o trafego de rede que passa por uma instância de rede em específico, nesse caso, o eth1.
+
+* Contudo, o PC1 conseguiu enviar os dados, o R2 recebeu, mas não teve pacote de resposta, então deu falha. Isso ocorre porque o R2 só tem rota para a rede 100.0.0.9 e 200, então é necessário configurar uma rota para alguma outra rede. Nesse caso, utilizamos o comando "ip route add 195.11.14.0/24 via 100.0.0.9 dev eth1". Nesse caso estamos dizendo que a rede "195.11.14.0/24" está acessível através da rede "100.0.0.9" e utilizando a interface "eth1", conforme o desenho esquemático.
+
+* O TCDUMP, em resumo, é um sniffer de rede, ou seja, ele recebe os pacotes mas não injeta eles. Em reusmo, ele é passivo na rede, captura todos os pacotes e consegue utilizá-los, mas se não está na rede, ele não dá retorno.
 
