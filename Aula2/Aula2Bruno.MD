@@ -12,14 +12,15 @@ Consegue ver as configurações para serem realizadas na máquina virtual. Com e
 * global commands -> Funcionam tanto em tempo real quando em pré configuração, para capturar informações da máquina e da rede
 
 ## Comandos kathara:
+* Todos os comandos devem ter prefixo kathara e se for instância atual de rede, deve utilizar o prefixo 'v'.
+
 * kathara check -> Validar a rede e o docker que está sendo executado e fazer testes
 * kathara vstart -n pc1 --eth 0:A -> Cria uma máquina na sua rede
 
-Se ocorrer o erro **"DockerPluginError"** Kathara has been left in an incosistent state” significa que a última instância do Kathara não foi finalizada corretamente, sendo necessário que execute o comando "kathara wipe", para limpar a memória.
+* Se ocorrer o erro **"DockerPluginError"** Kathara has been left in an incosistent state” significa que a última instância do Kathara não foi finalizada corretamente, sendo necessário que execute o comando **"kathara wipe"**, para limpar a memória.
 
-Ao executar o comando, será aberto um terminal com o nome @pc1, sendo esse a primeira máquina aberta. Caso mande algum comando linux, ele irá funcionar normalmente. Esse cenário basicamente criou um "PC1", sem nenhuma conexão com rede
 
-Para apagar o dispositivo, precisa usar o comando **"kathara vclean -n [nomeDispositivo]"**,para finalizar a sessão. Todos os comandos devem ter prefixo kathara e se for instância atual de rede, deve utilizar o prefixo 'v'.
+* **"kathara vclean -n [nomeDispositivo]"**: comando para apagar um elemento da rede. 
 
 * Comando 0:A : significa que :A é o domínio de colisão e 0 porque é o primeiro dispositivo
 :B por exemplo seria o domínio de colisão B.
@@ -28,7 +29,7 @@ Para apagar o dispositivo, precisa usar o comando **"kathara vclean -n [nomeDisp
 
 
 
-
+## Anotações gerais válidas... 📗
 
 
 Sempre que ser criado um container (PC1, PC2, PC3), terá disponível uma pasta /hosthome que terá todos os arquivos. Para acessar as informações compartilhadas no dispositivo host, precisa acessar a pasta /shared.
@@ -48,6 +49,7 @@ Aqui, estamos definindo a interface 0 do roteador no domínio de colisão A, dep
 
 Quando tentamos acessar a interface 0 do roteador 1 através da interface 0 do pc1, conseguimos com sucesso. Contudo, quando tentamos acessar a interface 1 do roteador 1 através da interface 0 do pc1, não conseguimos.
 Porque não é possível acessar interfaces em diferentes domínios?
+
 É uma questão de configuração. O computador foi configurado apenas na rede 195 e não consegue enviar pacote de dados para outras redes. Precisa adicionar um comando para que, caso ele não consiga alcançar a rede, ele manda para o roteador 1 que ele provavelmente vai saber o que fazer com isso. Basicamente, o que estamos criando é uma tabela de rotas estáticas.
 Tabela rotas estáticas -> Qualquer pacote destinado a algum ip específico, deve ser direcionado para outros dispositivo (no nosso caso, uma tabela de rota estática entre o pc1 e o r1.
 O r1 está na rede 195.11.14 e 100.0.0.9, então quando o pc1 enviou para a rede 100.0.0.9, ele não sabe o que fazer, então envia para o roteador1, que provavelmente sabe. Como o roteador 1 está conectado na rede 100.0.0.9, ele consegue receber o pacote de dados e transmitir para essa nova rede, constando como ativa.
