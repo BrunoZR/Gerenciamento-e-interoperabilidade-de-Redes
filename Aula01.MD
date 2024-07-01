@@ -15,9 +15,9 @@ Dockers é uma virtualização da virtualização. O conteiner é uma virtualiza
 -V : criar dispositivos em tempo real
 -L : simula uma criação, sendo mais rápido e em tempo real
 
-### kathara check : conferir a versão
+#### kathara check : conferir a versão
 
-### kathara vstart -n pc1 --eth 0:A :
+#### kathara vstart -n pc1 --eth 0:A :
 * Criando um computador pc1. Não pertencem à máquina virtual, mas sim ao conteiner
 * Lógica do comando : kathara v start -n "nome do pc" --interface de rede      número da interface/domínio de colisão
 
