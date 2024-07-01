@@ -71,6 +71,12 @@ Vale lembrar que o arquivo é um resumo topificado da aula do professor. Para me
 * 2-Abra o terminal dentro da pasta com as configurações já feitas
 * 3-Execute o comando "kathara lstart".
 
+Com isso, a seguinte rede foi importada:
+![imagem pro bruno](https://github.com/fultramari/Gerenciamento-e-interoperabilidade-de-Redes/assets/174112183/fe1fcaa4-e820-4965-b587-d4bd767127f7)
+
+
+
+
 ## EXECUTANDO COMANDOS PARA ENTENDER A REDE A PARTIR DE UM ELEMENTO DELA
 * comando ping: ping "ip destino" --> Confere a conectividade com o destino
 
