@@ -1,13 +1,15 @@
-# O kathará é um emulador com ferramentas de rede baseado no Docker
+# O kathará: um emulador com ferramentas de rede!
 
 
 ### Docker vs conteiners:
-Dockers é uma virtualização da virtualização. O conteiner é uma virtualização.
+* Docker é uma virtualização da virtualização. O conteiner é uma virtualização.
+* O Kathará é baseado no Docker
 
 
 
-### Colisões virtuais podem ocorrer pelo fato da conexão virtual ser análoga à um "fio que une todos os computadores".
-- Para lidar com isso, são utilizados domínios de colisões, que evita que certos computadores interfiram um no outro. Apesar disso, todos são capazes de se comunicar entre si.
+### Colisões virtuais 
+* Podem ocorrer pelo fato da conexão virtual ser análoga à um "fio que une todos os computadores".
+* Para lidar com isso, são utilizados domínios de colisões, que evita que certos computadores interfiram um no outro. Apesar disso, todos são capazes de se comunicar entre si.
 
 
 
@@ -19,10 +21,11 @@ Dockers é uma virtualização da virtualização. O conteiner é uma virtualiza
 
 
 ## COMANDOS DO KATHARA:
-*V : criar dispositivos em tempo real
-*L : simula uma criação, sendo mais rápido e em tempo real
+* V : criar dispositivos em tempo real
+* L : simula uma criação, sendo mais rápido e em tempo real
 
-#### kathara check : conferir a versão
+#### kathara check :
+* Confere a versão do kathará.
 
 #### kathara vstart -n pc1 --eth 0:A :
 * Criando um computador pc1. Não pertencem à máquina virtual, mas sim ao conteiner
