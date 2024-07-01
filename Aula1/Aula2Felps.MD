@@ -1,4 +1,6 @@
 # O kathará: um emulador com ferramentas de rede! 💻
+Data : 28/06
+
 Vale lembrar que o arquivo é um resumo topificado da aula do professor. Para melhor compreensão, pode ser interessante entender melhor o que é o Kathará e os conceitos de docker/containers:
 * https://wiki.foz.ifpr.edu.br/wiki/index.php/Kathara
 * https://www.youtube.com/watch?v=Xb9e4XY1ix8&ab_channel=SimplificandoTI
