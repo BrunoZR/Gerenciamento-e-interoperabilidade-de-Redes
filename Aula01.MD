@@ -37,13 +37,13 @@ Dockers é uma virtualização da virtualização. O conteiner é uma virtualiza
 * Mv "Destino local" "Destino desejado"
 
 
-# Importando uma rede já feita!
-* Como importar uma topologia de rede já pronta?
-1-Baixe um arquivo
-2-Abra o terminal dentro da pasta com as configurações já feitas
-3-Execute o comando "kathara lstart".
+## Importando uma rede já feita!
+###Como importar uma topologia de rede já pronta?
+* 1-Baixe um arquivo
+* 2-Abra o terminal dentro da pasta com as configurações já feitas
+* 3-Execute o comando "kathara lstart".
 
-# EXECUTANDO COMANDOS PARA ENTENDER A REDE A PARTIR DE UM ELEMENTO DELA
+### EXECUTANDO COMANDOS PARA ENTENDER A REDE A PARTIR DE UM ELEMENTO DELA
 * comando ping: ping "ip destino" --> Confere a conectividade com o destino
 
 * ip route --> dá as rotas
