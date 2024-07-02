@@ -31,3 +31,14 @@ Torrent : Overlay , não é exatamente peer-to-peer por estar inserido na rede d
 * Transporte : TCP , UDP (Lembrar que um é orientado à conexão e o outro não. Um se preocupa com a ordem dos pacotes e o outro não, etc).
 * Internet : IP , ICMP
 * Enlace/link : DSL, SONET , 802.11(Wifi) , ETHERNET
+
+## Construindo uma rede simples no Kathará
+Inicialize o Kathará -- > Disco local C --> VMBOX
+Na pasta do kathará, crie uma pasta "Rede_simples"
+Siga os passos do slide do professor.
+
+## Observando os protocolos de uma rede com o wireshark!
+* [Download da rede](https://github.com/KatharaFramework/Kathara-Labs/tree/main/main-labs/basic-topics/basic-ipv4)
+Em termos de gerenciamento... 
+- Ping para testar a conectividade é uma das formas de analisar se a falha de uma comunicação está na rede ou no servidor.
+- Uso do wireshark para observar quais pacotes estão circulando
