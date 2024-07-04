@@ -4,11 +4,11 @@
 * Internet não é uma rede de computadores seguindo essa definição, mas sim, um conjunto de várias redes.
 
 ## Existem dois modelos de redes de computadores:
-*MODELO CLIENTE-SERVIDOR*
+* MODELO CLIENTE-SERVIDOR *
 - Existem dois computadores e um servidor fixo, sendo todo eles ligados pela rede. Alguns exemplos são aplicações web. Whats app por exemplo é um modelo cliente servidor (por ter um servidor central que centraliza as informações), contudo, a comunicação é feita de cliente para cliente.
 - Para acessar um servidor, é necessário utilizar uma URL, transformando o IP do servidor em uma rota de acesso público, utilizando o protocolo DNS.
 
-* MODELO PEER TO PEER*
+* MODELO PEER TO PEER *
 - Nesse modelo, não existem clientes e servidores fixos, então a comunicação é realizada diretamente entre dois dispositivos, sem intermédio de um servidor. Apesar de ser peer-to-peer entre os usuários, normalmente ele está sob uma infra-estrutura de servidor. No momento que você está pegando os dados, você age como cliente e o outro como servidor, mas isso depende do referencial do fluxo de dados.
 - O gerenciamento e os problemas de segurança para cada modelo são diferentes, além da efetividade deles. O modelo peer-to-peer é um sistema distribuído, então tem o arquivo mais disponível em diferentes pontos e possui algumas vantagens do que o modelo de servidor, que é centralizado e pode possibilitar um acesso mais rápido da informação, mas com menos disponibilidade, porque se der pau no servidor, acaba tudo.
 
