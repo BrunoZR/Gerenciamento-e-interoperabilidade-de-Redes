@@ -1,4 +1,4 @@
-## Redes de computadores -> Protocólos e camadas
+## Redes de computadores : Protocolos e camadas
 * É um conjunto de computadores autônomos interconectados por uma única tecnologia (entende-se que interconectar é quando ambos os computadores podem trocar informação, seja essa tecnologia por cabo ou por rede wireless.
 
 * Internet não é uma rede de computadores seguindo essa definição, mas sim, um conjunto de várias redes.
