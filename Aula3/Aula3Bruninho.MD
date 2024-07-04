@@ -15,18 +15,18 @@
 ## Tipos de redes:
 
 * Rede de acesso:
-- Banda larga -> Rede conectada via cabo oferecida por um provedor (cabo fibra, principalmente),
-- Sem fio -> Acessar internet totalmente sem fio, com sinal de rádio frequência ou satélite (starlink))
-- Redes móveis -> Pacote de dados do celular, com 4G ou 5G.
+  - Banda larga -> Rede conectada via cabo oferecida por um provedor (cabo fibra, principalmente),
+  - Sem fio -> Acessar internet totalmente sem fio, com sinal de rádio frequência ou satélite (starlink))
+  - Redes móveis -> Pacote de dados do celular, com 4G ou 5G.
 
 * Rede de provedor de conteúdo:
-- É utilizado uma rede de distrbuição CDN, na qual o grupo de acesso está mais "próximo" do conteúdo e otimiza o tempo de carregamento, baixando menos dados.
+  - É utilizado uma rede de distrbuição CDN, na qual o grupo de acesso está mais "próximo" do conteúdo e otimiza o tempo de carregamento, baixando menos dados.
 
 * Rede backbone:
-- Pode ser entendida como o core da internet, visto que toda a informação passada entre todos os provedores é feita através dessa forma. Em geral, utiliza-se fibra para constuir uma rede backbone.
+  - Pode ser entendida como o core da internet, visto que toda a informação passada entre todos os provedores é feita através dessa forma. Em geral, utiliza-se fibra para constuir uma rede backbone.
 
 * Rede empreserial:
-- Consiste em toda forma de rede mínima, seja ela corporativa, faculdade, entre outras. No contexto geral, ela pode ser conectada totalmente via cabo ou através de rede wi-fi.
+  - Consiste em toda forma de rede mínima, seja ela corporativa, faculdade, entre outras. No contexto geral, ela pode ser conectada totalmente via cabo ou através de rede wi-fi.
 
 ## Tecnologia das redes:
 * BAN (Body Area Network) -> Alguns pequenos pesquisadores consideram uma nova rede menor do que a pessoal, que é a corporal, que são os relógios e fones de ouvidos conectados na pessoa.
