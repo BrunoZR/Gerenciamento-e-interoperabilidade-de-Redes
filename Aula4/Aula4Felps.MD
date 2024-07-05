@@ -39,5 +39,5 @@
 * Permite que um hospedeiro receba um IP automaticamente. Usa IP's DINÂMICOS!
 * Broadcasts: Revisar como acontece.
 
-##NAT
+## NAT
 * Tradução de IP's privados para públicos
