@@ -38,11 +38,11 @@ Ex: tokenization --> token + ization
 - Verbos: Transforma os verbos para o infinitivo
 - Substantivos e adjetivos: Transforma para o masculino singular.
 
-Ex:
-- Bonitas, bonita, bonitos --> Bonito
-- Ajudaremos, Ajude, Ajudamos --> Ajudar
-- Tinhamos,Tive,Tenho --> Ter
-- Gato,gatas,gatos --> Gato
+- Exemplos:
+ Bonitas, bonita, bonitos --> Bonito
+ Ajudaremos, Ajude, Ajudamos --> Ajudar
+ Tinhamos,Tive,Tenho --> Ter
+ Gato,gatas,gatos --> Gato
 
 Obs: A palavra canônica é dita como *lema* , e as suas derivadas são ditas como *lexemas*
 
