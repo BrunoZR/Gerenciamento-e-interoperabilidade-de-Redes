@@ -17,7 +17,7 @@
 - O que é : Sequência de n elementos/tokens
 - Função : Estimar probabilidade de uma sequência de palavras. Geralmente são usados bigramas ou trigramas.
 
-### Exemplo 1: Quantos unigramas existem?
+### Exemplo1: Considere o poema:
 
 ```
 no meio do caminho tinha uma pedra
@@ -25,6 +25,16 @@ tinha uma pedra no meio do caminho
 tinha uma pedra
 no meio do caminho tinha uma pedra
 ```
-Como são unigramas, cada palavra será um unigrama. 
-Existem 24 palavras no texto, mas não são 24 unigramas, pois não valem repetições. 
+
+#### A) Quantos unigramas tem o poema?
+
+Como são unigramas, cada palavra será um unigrama.\n
+Existem 24 palavras no texto, mas a resposta não é 24, pois não valem repetições. \n
 Contando todas as palavras apenas uma vez, chega-se em *7 unigramas* .
+
+
+### B) Qual a probabilidade de cada unigrama?
+
+
+
+###
