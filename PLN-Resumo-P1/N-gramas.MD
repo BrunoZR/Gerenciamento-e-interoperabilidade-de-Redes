@@ -56,13 +56,4 @@ no meio do caminho tinha uma pedra
 <s> no meio do caminho tinha uma pedra <s>
 ```
 
-- Bigramas totais: 11
-(<s>, no), (no, meio), (meio, do),
-(do, caminho), (caminho, tinha),
-(tinha, uma), (uma, pedra),
-(pedra, </s>), (<s>, tinha),
-(pedra, no), (caminho, </s>)
-
-### D) Como calcular a probabilidade de um bigrama ocorrer?
-Vamos calcular a probabilidade de P(<s>,no), por exemplo.
-P(<s>,no) =  ![Formula](https://latex.codecogs.com/svg.image?\color{white}P(<s>|no)=\frac{P(<s>\cap&space;no)}{P(<s>)})
+assss
