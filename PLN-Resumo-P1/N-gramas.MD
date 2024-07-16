@@ -48,7 +48,7 @@ no meio do caminho tinha uma pedra
 
 
 ### C) Quantos bigramas existem no poema?
-- No caso de bigrama, marcadores iniciais e finais (<s>) de texto devem ser considerados.
+- No caso de bigrama, marcadores iniciais e finais ("<s>") de texto devem ser considerados.
 ```
 <s> no meio do caminho tinha uma pedra <s>
 <s> tinha uma pedra no meio do caminho <s>
