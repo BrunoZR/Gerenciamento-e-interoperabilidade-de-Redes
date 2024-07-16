@@ -13,3 +13,18 @@
 
 ## N-Gramas
 ![print](https://private-user-images.githubusercontent.com/174112183/349214910-7d2ebcbb-1137-4625-9e93-65039805eadc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjExNTE0MjEsIm5iZiI6MTcyMTE1MTEyMSwicGF0aCI6Ii8xNzQxMTIxODMvMzQ5MjE0OTEwLTdkMmViY2JiLTExMzctNDYyNS05ZTkzLTY1MDM5ODA1ZWFkYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxNlQxNzMyMDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNWViYmQwZWY2YmEwYjBlZGQxYmEwZTU4ZDAwNzllMmRhYThkODg2MmZlYmVkYTM4Y2I4NWU2YzMxZDRmYTBlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.aSRIVhi8EWvUj-sL_g4jBtIGudEo4DBQ8emTg65JaPY)
+
+- O que é : Sequência de n elementos/tokens
+- Função : Estimar probabilidade de uma sequência de palavras. Geralmente são usados bigramas ou trigramas.
+
+### Exemplo 1: Quantos unigramas existem?
+
+```
+no meio do caminho tinha uma pedra
+tinha uma pedra no meio do caminho
+tinha uma pedra
+no meio do caminho tinha uma pedra
+```
+Como são unigramas, cada palavra será um unigrama. 
+Existem 24 palavras no texto, mas não são 24 unigramas, pois não valem repetições. 
+Contando todas as palavras apenas uma vez, chega-se em *7 unigramas* .
