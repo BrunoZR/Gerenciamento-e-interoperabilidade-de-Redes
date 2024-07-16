@@ -68,5 +68,5 @@ no meio do caminho tinha uma pedra
 ### D) Como calcular a probabilidade de um bigrama ocorrer?
 
 Vamos calcular a probabilidade de P(no,meio), por exemplo.
-P(<s>,no) =  ![Formula](https://latex.codecogs.com/svg.image?\color{white}P(<s>|no)=\frac{P(no \cap&space; meio)}{P(no)})
+P(no,meio) =  ![Formula](https://latex.codecogs.com/svg.image?\color{white}P(<s>|no)=\frac{P(no \cap&space;meio)}{P(no)})
 
