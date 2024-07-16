@@ -36,7 +36,7 @@ no meio do caminho tinha uma pedra
 #### B) Qual a probabilidade de cada unigrama no poema?
 - Basta contar quantas vezes cada unigrama aparece e dividr pelo número total de palavras.
 Unigrama | Probabilidade
----------|-------------
+--------- | -------------
 P(no)    | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})
 P(meio)  | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})
 P(do)    | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})
