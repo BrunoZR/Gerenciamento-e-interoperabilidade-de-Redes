@@ -28,9 +28,9 @@ no meio do caminho tinha uma pedra
 
 #### A) Quantos unigramas tem o poema?
 
-Como são unigramas, cada palavra será um unigrama.\n
-Existem 24 palavras no texto, mas a resposta não é 24, pois não valem repetições. \n
-Contando todas as palavras apenas uma vez, chega-se em *7 unigramas* .
+- Como são unigramas, cada palavra será um unigrama.
+- Existem 24 palavras no texto, mas a resposta não é 24, pois não valem repetições. \n
+- Contando todas as palavras apenas uma vez, chega-se em *7 unigramas* .
 
 
 ### B) Qual a probabilidade de cada unigrama?
