@@ -4,11 +4,11 @@
 - Padroniza os textos para uma forma mais conveniente de serem processados.
 
 ### O que é linguagem?
-R: Sistema de símbolos de um vocabulário que, quando colocados numa determinada ordem e expressos num determinado contexto, emitem um significado.
+- Sistema de símbolos de um vocabulário que, quando colocados numa determinada ordem e expressos num determinado contexto, emitem um significado.
 
-### Como processar de forma conveniente os textos? 3 passos
+## Como processar de forma conveniente os textos? 3 passos
 
-1) Tokenização: Quebra uma frase/texto em pedaços menores chamados tokens. Cada token pode ser uma palavra só, ou duas palavras, etc. Depende do que é mais conveniente para ocasião.
+### 1) Tokenização: Quebra uma frase/texto em pedaços menores chamados tokens. Cada token pode ser uma palavra só, ou duas palavras, etc. Depende do que é mais conveniente para ocasião.
 - Os tokenizadores utilizam como base regras gramaticas/linguísticas para saber o que é uma palavra válida
 - Token vs Types : Os tokens são todas as palavras/elementos que constituem a frase. Os types consideram a palavra uma vez só em casos de repetição.
 Ex: eu sou eu. Tokens : "eu" , "sou" , "eu" Types: "eu" , "sou"
