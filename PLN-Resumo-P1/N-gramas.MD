@@ -36,16 +36,33 @@ no meio do caminho tinha uma pedra
 #### B) Qual a probabilidade de cada unigrama no poema?
 - Basta contar quantas vezes cada unigrama aparece e dividr pelo número total de palavras.
 
-| Unigrama  | Probabilidade                                      |
-|-----------|----------------------------------------------------|
-| P(no)     | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})     |
-| P(meio)   | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})     |
-| P(do)     | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})     |
-| P(caminho)| ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})     |
-| P(tinha)  | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})     |
-| P(uma)    | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})     |
-| P(pedra)  | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})     |
+    | Unigrama  | Probabilidade                                      |
+    |-----------|----------------------------------------------------|
+    | P(no)     | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})     |
+    | P(meio)   | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})     |
+    | P(do)     | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})     |
+    | P(caminho)| ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})     |
+    | P(tinha)  | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})     |
+    | P(uma)    | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})     |
+    | P(pedra)  | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})     |
 
 
+### C) Quantos bigramas existem no poema?
+- No caso de bigrama, marcadores iniciais e finais (<s>) de texto devem ser considerados.
+```
+<s> no meio do caminho tinha uma pedra <s>
+<s> tinha uma pedra no meio do caminho <s>
+<s> tinha uma pedra <s>
+<s> no meio do caminho tinha uma pedra <s>
+```
 
+- Bigramas totais: 11
+(<s>, no), (no, meio), (meio, do),
+(do, caminho), (caminho, tinha),
+(tinha, uma), (uma, pedra),
+(pedra, </s>), (<s>, tinha),
+(pedra, no), (caminho, </s>)
 
+### D) Como calcular a probabilidade de um bigrama ocorrer?
+Vamos calcular a probabilidade de P(<s>,no), por exemplo.
+P(<s>,no) =  ![Formula](https://latex.codecogs.com/svg.image?\color{white}P(<s>|no)=\frac{P(<s>\cap&space;no)}{P(<s>)})
