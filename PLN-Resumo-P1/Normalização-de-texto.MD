@@ -13,14 +13,16 @@ R: Sistema de símbolos de um vocabulário que, quando colocados numa determinad
 - Token vs Types : Os tokens são todas as palavras/elementos que constituem a frase. Os types consideram a palavra uma vez só em casos de repetição.
 Ex: eu sou eu. Tokens : "eu" , "sou" , "eu" Types: "eu" , "sou"
 
-Byte pair encoding: junta os pares de caracteres mais frequentes.
-World piece: par de símbolos que maximiza a probabilidade de ocorrência
-Unigram: Usa como base uma grande quantia de caracteres/palavras/subplavras. Com o tempo essa base é reduzida, permanecendo apenas os símbolos mais relevantes.
+Algorítmos de tokenização | Funcionamento
+------------------------- | --------------
+Byte pair encoding| junta os pares de caracteres mais frequentes.
+World piece| Par de símbolos que maximiza a probabilidade de ocorrência
+Unigram| Usa como base uma grande quantia de caracteres/palavras/subplavras. Com o tempo essa base é reduzida, permanecendo apenas os símbolos mais relevantes.
 
 - Subwords: Divide uma palavra desconhecida em pedaços conhecidos. Decompõe palavras compostas que não são frequentes em dois ou mais pedaços que aparecem com mais frequência. 
 Ex: tokenization --> token + ization
 
--Stopwords: Para facilitar a análise de um texto, são removidas preposições,determinantes,conjunções, para facilitar o processamento e dar foco para as palavras que realmente possuem significado.
+- Stopwords: Para facilitar a análise de um texto, são removidas preposições,determinantes,conjunções, para facilitar o processamento e dar foco para as palavras que realmente possuem significado.
 
 
 2) Lematização: Transforma palavras para o seu modo mais canônico possível.
