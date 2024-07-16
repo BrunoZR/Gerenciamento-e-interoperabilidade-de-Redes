@@ -17,7 +17,7 @@
 - O que é : Sequência de n elementos/tokens
 - Função : Estimar probabilidade de uma sequência de palavras. Geralmente são usados bigramas ou trigramas.
 
-### Exemplo1: Considere o poema:
+### Exemplo 1 - Considere o poema:
 
 ```
 no meio do caminho tinha uma pedra
@@ -33,8 +33,18 @@ no meio do caminho tinha uma pedra
 - Contando todas as palavras apenas uma vez, chega-se em *7 unigramas* .
 
 
-### B) Qual a probabilidade de cada unigrama?
+#### B) Qual a probabilidade de cada unigrama no poema?
+- Basta contar quantas vezes cada unigrama aparece e dividr pelo número total de palavras.
+Unigrama | Probabilidade
+---------|-------------
+P(no)    | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})
+P(meio)  | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})
+P(do)    | ![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})
+P(caminho)|![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{3}{24})
+P(tinha)  |![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})
+P(uma)    |![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})
+P(pedra)  |![fração](https://latex.codecogs.com/svg.image?\color{white}\frac{4}{24})
 
 
 
-###
+
