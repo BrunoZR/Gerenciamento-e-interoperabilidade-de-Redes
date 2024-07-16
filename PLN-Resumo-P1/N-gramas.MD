@@ -66,6 +66,7 @@ no meio do caminho tinha uma pedra
 ```
 
 ### D) Como calcular a probabilidade de um bigrama ocorrer?
-Vamos calcular a probabilidade de P(no,meio), por exemplo:
- ![Formula](https://latex.codecogs.com/svg.image?\color{white}P(no|meio)=\frac{P(no\cap&space;meio)}{P(no)})
+Como exemplo, vamos calcular a probabilidade de P(no,meio):
+- ![Formula](https://latex.codecogs.com/svg.image?\color{white}P(no|meio)=\frac{P(no\cap&space;meio)}{P(no)})
+- 
 
