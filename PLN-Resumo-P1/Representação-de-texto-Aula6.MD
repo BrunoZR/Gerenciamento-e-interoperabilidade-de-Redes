@@ -45,7 +45,7 @@ Desse modo, para representar a frase "cachorro morde homem":
 6 - comida
 
 
--Assim, cada vetor é uma FRASE:
+- Assim, cada vetor é uma FRASE:
 
 | Documento             | Vetor              |
 |-----------------------|--------------------|
