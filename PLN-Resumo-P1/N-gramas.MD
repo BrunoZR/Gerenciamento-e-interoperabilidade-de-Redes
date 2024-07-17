@@ -73,7 +73,7 @@ Como exemplo, vamos calcular a probabilidade de P(meio|no) , correspondente ao b
 - Agora, basta dividir 2/4 = 2.
 - O raciocínio resulta na mesma coisa que aplicar a fórmula:
 
-- ![a](https://latex.codecogs.com/svg.image?\bg{white}&space;P(no|meio)=\frac{P(no\cap&space;meio)}{P(no))}\Leftrightarrow\frac{\frac{3}{11}}{\frac{3}{11}}\Leftrightarrow&space;1\Leftrightarrow&space;100%)
+- ![a](https://latex.codecogs.com/svg.image?\bg{white}&space;P(no|meio)=\frac{P(no\cap&space;meio)}{P(no)}\Leftrightarrow\frac{\frac{3}{11}}{\frac{3}{11}}\Leftrightarrow&space;1\Leftrightarrow&space;100%)
 
 - A única diferença é que a probabilidade que é utilizada (em vez de 3/3 , fica 3/11 / 3/11 , que resulta em 1 também.)
 
