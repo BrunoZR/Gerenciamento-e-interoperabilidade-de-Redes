@@ -73,8 +73,7 @@ Como exemplo, vamos calcular a probabilidade de P(meio|no) , correspondente ao b
 - Agora, basta dividir 2/4 = 2.
 - O raciocínio resulta na mesma coisa que aplicar a fórmula:
 
-- ![Formula](P(\text{no}|\text{meio})=\frac{P(\text{no} \cap \text{meio})}{P(\text{no})} \Leftrightarrow \frac{\frac{3}{11}}{\frac{3}{11}} \Leftrightarrow 1 \Leftrightarrow 100\% )
-
+- ![Resultado](https://github.com/fultramari/Gerenciamento-e-interoperabilidade-de-Redes/issues/4#issue-2412276200)
 
 - A única diferença é que a probabilidade que é utilizada (em vez de 3/3 , fica 3/11 / 3/11 , que resulta em 1 também.)
 
