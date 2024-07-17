@@ -4,6 +4,7 @@ Existem diversos métodos para cada tipo de informação. O escopo de análise s
 No geral, são utilizadas *representações vetoriais*, um espaço algébrico interessante e conveniente.
 
 Para explicarmos cada modelo, considere os seguintes documentos:
+   |
 -- | -------------------
 D1 | cachorro morde homem
 D2 | homem morde cachorro
