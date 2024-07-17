@@ -70,6 +70,8 @@ Desse modo, para representar a frase "cachorro morde homem":
 8- come comida
 
 - Cada digito do vetor representa um bigrama, e o vetor completo também representa uma frase:
+| Documento            | Vetor            |
+|----------------------|------------------|
 | cachorro morde homem | [1,1,0,0,0,0,0,0] |
 | homem morde cachorro | [0,0,1,1,0,0,0,0] |
 | cachorro come carne  | [0,0,0,0,1,1,0,0] |
