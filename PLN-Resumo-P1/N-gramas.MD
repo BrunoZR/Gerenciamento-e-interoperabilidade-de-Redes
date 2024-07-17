@@ -68,6 +68,10 @@ no meio do caminho tinha uma pedra
 ### D) Como calcular a probabilidade de um bigrama ocorrer?
 Como exemplo, vamos calcular a probabilidade de P(meio|no) , correspondente ao bigrama (no,meio):
 - Precisamos saber a probabilidade de aparecer a palavra "meio", sabendo que apareceu a palavra "no" antes.
+- Para isso, contamos quantas vezes a palavra "meio" apareceu depois de "no" (duas vezes)
+- Depois, contamos quantas vezes a palavra "no" apareceu (4 vezes)
+- Agora, basta dividir 2/4 = 2.
+- O raciocínio resulta na mesma coisa que aplicar a fórmula:
 
 - ![Formula](https://latex.codecogs.com/svg.image?\color{white}P(no|meio)=\frac{P(no\cap&space;meio)}{P(no)})
 - 
