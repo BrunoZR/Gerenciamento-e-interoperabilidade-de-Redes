@@ -11,6 +11,22 @@ D3 | cachorro come carne
 D4 | homem come comida
 ```
 ## Modelo 1 : One-Hot encoding
-- Cada palavra se transforma em um vetor
-- Cada uma dessas palavras recebe um ID único
+- Cada palavra recebe um ID único:
+1 - cachorro
+2 - morde
+3 - homem
+4 - come
+5 - carne
+6 - comida
+
+- Assim, cada vetor terá 6 digitos, basta colocar 1 na posição correspondente ao ID , e 0 nas restantes:
+Palavra  | Vetor
+-------- | ------
+cachorro | [1,0,0,0,0,0]
+morde    | [0,1,0,0,0,0]
+homem    | [0,0,1,0,0,0]
+come     | [0,0,0,1,0,0]
+carne    | [0,0,0,0,1,0]
+comida   | [0,0,0,0,1,0]
+
 
