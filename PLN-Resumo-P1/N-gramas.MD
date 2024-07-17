@@ -79,7 +79,7 @@ Como exemplo, vamos calcular a probabilidade de P(meio|no) , correspondente ao b
         ![b](https://latex.codecogs.com/svg.image?\bg{white}\color{white}\;P(no|meio)=\frac{contar(no\&space;meio)}{contar(no)}\Leftrightarrow\frac{3}{3}\Leftrightarrow&space;1\Leftrightarrow&space;100%)
 
 
-##Observação
+## Observação
 No final desses slides, tem uma parte "prática" que julguei não ser útil para a prova, então não inseri no resumo. Ele ensina métodos para calcular o quão eficiente um modelo de linguagem é bom, utilizando uma fórmula chamada "perplexidade" e mostrando alguns modelos de análises frequentemente utilizados (*Laplace add 1 smoothing & Lidstone add k smoothing*)
 
 ## Importante para a prova
