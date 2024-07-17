@@ -20,13 +20,55 @@ D4 | homem come comida
 6 - comida
 
 - Assim, cada vetor terá 6 digitos, basta colocar 1 na posição correspondente ao ID , e 0 nas restantes:
-Palavra  | Vetor
--------- | ------
-cachorro | [1,0,0,0,0,0]
-morde    | [0,1,0,0,0,0]
-homem    | [0,0,1,0,0,0]
-come     | [0,0,0,1,0,0]
-carne    | [0,0,0,0,1,0]
-comida   | [0,0,0,0,1,0]
+| Palavra  | Vetor           |
+|----------|-----------------|
+| cachorro | [1, 0, 0, 0, 0, 0] |
+| morde    | [0, 1, 0, 0, 0, 0] |
+| homem    | [0, 0, 1, 0, 0, 0] |
+| come     | [0, 0, 0, 1, 0, 0] |
+| carne    | [0, 0, 0, 0, 1, 0] |
+| comida   | [0, 0, 0, 0, 0, 1] |
 
+Desse modo, para representar a frase "cachorro morde homem":
+[1, 0, 0, 0, 0, 0] [0, 1, 0, 0, 0, 0] [0, 0, 1, 0, 0, 0]
+
+
+## Modelo 2: Bag of words
+- Cada palavra recebe um ID único (igual no modelo 1) : 
+1 - cachorro
+2 - morde
+3 - homem
+4 - come
+5 - carne
+6 - comida
+
+
+- O vetor representa uma FRASE.
+| cachorro morde homem | [1,1,1,0,0,0] |
+| homem morde cachorro | [1,1,1,0,0,0] |
+| cachorro come carne  | [1,0,0,1,1,0] |
+| homem come comida    | [0,0,1,1,0,1] |
+
+- Nesse caso, não é levado em conta a ordem da frase, por isso a frase "cachorro morde homem" tem a mesma representação que a "homem morde cachorro".
+
+## Modelo 3 : Bag of n-grams
+- O corpus é dividido em n-gramas (bigramas, por exemplo):
+1- cachorro morde 
+2- morde homem 
+3- homem morde 
+4- morde cachorro
+5- cachorro come
+6- come carne
+7- homem come
+8- come comida
+
+- Cada digito do vetor representa um bigrama, e o vetor completo também representa uma frase:
+| cachorro morde homem | [1,1,0,0,0,0,0,0] |
+| homem morde cachorro | [0,0,1,1,0,0,0,0] |
+| cachorro come carne  | [0,0,0,0,1,1,0,0] |
+| homem come comida    | [0,0,0,0,0,0,1,1] |
+
+
+## Modelo 4 : TF - IDF
+- TF: Uma relação matemática que retorna a frequência que a palavra ocorre em um determinado documento:
 
