@@ -21,13 +21,14 @@ D4 | homem come comida
 
 - Assim, cada vetor terá 6 digitos, basta colocar 1 na posição correspondente ao ID , e 0 nas restantes:
 | Palavra  | Vetor              |
-|----------|-----------------   |
+|----------|--------------------|
 | cachorro | [1, 0, 0, 0, 0, 0] |
 | morde    | [0, 1, 0, 0, 0, 0] |
 | homem    | [0, 0, 1, 0, 0, 0] |
 | come     | [0, 0, 0, 1, 0, 0] |
 | carne    | [0, 0, 0, 0, 1, 0] |
 | comida   | [0, 0, 0, 0, 0, 1] |
+
 
 Desse modo, para representar a frase "cachorro morde homem":
 [1, 0, 0, 0, 0, 0] [0, 1, 0, 0, 0, 0] [0, 0, 1, 0, 0, 0]
