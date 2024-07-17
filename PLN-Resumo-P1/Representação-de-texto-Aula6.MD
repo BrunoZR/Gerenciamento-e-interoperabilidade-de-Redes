@@ -46,12 +46,12 @@ Desse modo, para representar a frase "cachorro morde homem":
 
 
 - O vetor representa uma FRASE:
-Palavra              | Vetor              
----------------------|--------------
-cachorro morde homem | [1,1,1,0,0,0] 
-homem morde cachorro | [1,1,1,0,0,0] 
-cachorro come carne  | [1,0,0,1,1,0] 
- homem come comida   | [0,0,1,1,0,1] 
+Palavra             | Vetor              
+--------------------|--------------
+cachorro morde homem| [1,1,1,0,0,0] 
+homem morde cachorro| [1,1,1,0,0,0] 
+cachorro come carne | [1,0,0,1,1,0] 
+homem come comida   | [0,0,1,1,0,1] 
 
 - Nesse caso, não é levado em conta a ordem da frase, por isso a frase "cachorro morde homem" tem a mesma representação que a "homem morde cachorro".
 
