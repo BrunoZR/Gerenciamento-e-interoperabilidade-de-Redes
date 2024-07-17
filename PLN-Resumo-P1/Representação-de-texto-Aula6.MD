@@ -70,5 +70,12 @@ Desse modo, para representar a frase "cachorro morde homem":
 
 
 ## Modelo 4 : TF - IDF
+
 - TF: Uma relação matemática que retorna a frequência que a palavra ocorre em um determinado documento:
+![TF](https://latex.codecogs.com/svg.image?\bg{white}\color{white}\text{Tf(palavra,documento)}=\frac{\text{num&space;de&space;ocorrencias&space;da&space;palavra}}{\text{num&space;total&space;de&space;termos&space;no&space;documento}})
+
+- IDF:
+![IDF](https://latex.codecogs.com/svg.image?\bg{white}\color{white}\text{Idf(palavra)}=log(\frac{\text{n&space;total&space;de&space;documentos}}{\text{n&space;de&space;documentos&space;contendo&space;a&space;palavra}}))
+
+
 
