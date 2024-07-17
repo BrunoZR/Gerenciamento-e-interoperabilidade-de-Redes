@@ -77,3 +77,12 @@ Como exemplo, vamos calcular a probabilidade de P(meio|no) , correspondente ao b
 
 - A única diferença é que a probabilidade que é utilizada (em vez de 3/3 , fica 3/11 / 3/11 , que resulta em 1 também.) Então, podemos escrever de forma mais simples a fórmula, valendo para qualquer caso:                                                                               
         ![b](https://latex.codecogs.com/svg.image?\bg{white}\color{white}\;P(no|meio)=\frac{contar(no\&space;meio)}{contar(no)}\Leftrightarrow\frac{3}{3}\Leftrightarrow&space;1\Leftrightarrow&space;100%)
+
+
+##Observação
+No final desses slides, tem uma parte "prática" que julguei não ser útil para a prova, então não inseri no resumo. Ele ensina métodos para calcular o quão eficiente um modelo de linguagem é bom, utilizando uma fórmula chamada "perplexidade" e mostrando alguns modelos de análises frequentemente utilizados (*Laplace add 1 smoothing & Lidstone add k smoothing*)
+
+## Importante para a prova
+- Em muitas ocasiões, o cálculo da probabilidade de uma frase envolva uma sequência de duas palavras que nunca aconteceu na sua base de texto. Nesse caso, a probabilidade dessa sequência é 0, e não importa o quanto seja a probabilidade dos outros pedaços/n-gramas , a probabilidade dessa frase ocorrer é ZERO!
+
+
