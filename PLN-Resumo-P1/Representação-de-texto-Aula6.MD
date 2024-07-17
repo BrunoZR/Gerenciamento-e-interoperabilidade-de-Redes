@@ -59,15 +59,15 @@ Desse modo, para representar a frase "cachorro morde homem":
 - Nesse caso, não é levado em conta a ordem da frase, por isso a frase "cachorro morde homem" tem a mesma representação que a "homem morde cachorro".
 
 ## Modelo 3 : Bag of n-grams
-- O corpus é dividido em n-gramas (bigramas, por exemplo):
-1- cachorro morde 
-2- morde homem 
-3- homem morde 
-4- morde cachorro
-5- cachorro come
-6- come carne
-7- homem come
-8- come comida
+### O corpus é dividido em n-gramas (bigramas, por exemplo):
+* 1- cachorro morde 
+* 2- morde homem 
+* 3- homem morde 
+* 4- morde cachorro
+* 5- cachorro come
+* 6- come carne
+* 7- homem come
+* 8- come comida
 
 - Cada digito do vetor representa um bigrama, e o vetor completo também representa uma frase:
 
