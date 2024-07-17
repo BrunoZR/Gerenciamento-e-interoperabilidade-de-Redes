@@ -76,4 +76,4 @@ Como exemplo, vamos calcular a probabilidade de P(meio|no) , correspondente ao b
 - ![a](https://latex.codecogs.com/svg.image?\color{white}\;P(no|meio)=\frac{P(no\cap&space;meio)}{P(no)}\Leftrightarrow\frac{\frac{3}{11}}{\frac{3}{11}}\Leftrightarrow&space;1\Leftrightarrow&space;100%)
 
 - A única diferença é que a probabilidade que é utilizada (em vez de 3/3 , fica 3/11 / 3/11 , que resulta em 1 também.) Então, podemos escrever de forma mais simples a fórmula, valendo para qualquer caso:                                                                               
-\color{white}\;P(no|meio)=\frac{contar(no\&space;meio)}{contar(no)}\Leftrightarrow\frac{3}{3}\Leftrightarrow&space;1\Leftrightarrow&space;100%
+![b](\color{white}\;P(no|meio)=\frac{contar(no\&space;meio)}{contar(no)}\Leftrightarrow\frac{3}{3}\Leftrightarrow&space;1\Leftrightarrow&space;100%)
