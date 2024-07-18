@@ -47,7 +47,7 @@ Obs: A palavra canônica é dita como *lema* , e as suas derivadas são ditas co
 
 
 
-## 3) Radicalização: Pega o radical da palavra. 
+## 3) Radicalização/stemização: Pega o radical da palavra. 
 Bonito --> Bonit
 jeito --> jeit 
 felicidade --> felic
