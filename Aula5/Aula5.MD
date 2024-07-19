@@ -96,7 +96,11 @@ ________________________________________________________________________________
 - Rede inicial: 140.25.0.0/16
 - Máscara padrão: 255.255.0.0 (ou /16 em CIDR)
 
-Para dividir em 16 blocos iguais, precisamos de uma máscara /20 (porque 16 + 4 = 20).
+Para dividir em 16 blocos iguais, precisamos de uma máscara nova. Como são 16 blocos:
+$$ 2^x = 16 \implies x = \log_2(16) $$
+
+16 + 4 = 20. 
+Portanto, a máscara nova será 20.
 
 #### Detalhamento dos blocos:
 
