@@ -14,8 +14,10 @@ Os últimos 7 bits são utilizados para o host
 ### A) Qual é o primeiro endereço do bloco (endereço da sub-rede)?
 
 PASSO 1: Identificar o endereço IP e a máscara de sub-rede:
+```
 - Endereço IP: 205.16.37.39
 - Máscara de sub-rede: /28
+```
 
 PASSO 2: Converter o endereço IP  e máscara de subrede para binário:
 ```
@@ -37,8 +39,11 @@ Endereço de sub-rede em binário: 11001101.00010000.00100101.00100000
 Em decimal: 205.16.37.32
 ```
 PASSO 4: Adicionar 1 ao endereço de sub-rede para obter o primeiro endereço de host válido:
+```
 Endereço de sub-rede: 205.16.37.32
 Primeiro endereço de host: 205.16.37.33
+```
+
 
 ### Resposta:
 Portanto, o primeiro endereço de host do bloco (endereço de sub-rede) é 205.16.37.33
@@ -50,8 +55,10 @@ Portanto, o primeiro endereço de host do bloco (endereço de sub-rede) é 205.1
 ### B) Qual é o último endereço do bloco (endereço de broadcast)?
 
 PASSO 1: Identificar o endereço IP e a máscara de sub-rede:
+```
 Endereço IP: 205.16.37.39
 Máscara de sub-rede: /28 (ou 255.255.255.240 em decimal)
+```
 
 PASSO 2: Converter para binário:
 ```
@@ -77,8 +84,9 @@ Endereço de broadcast em binário:11001101.00010000.00100101.0010**1111**
 ```
 
 PASSO 5: Converter o endereço de broadcast de volta para decimal:
+```
 11001101.00010000.00100101.00101111 --> 205.16.37.47
-
+```
 ### Resposta:
 Portanto, o endereço de broadcast da sub-rede com o endereço IP 205.16.37.39/28 é 205.16.37.47.
 
