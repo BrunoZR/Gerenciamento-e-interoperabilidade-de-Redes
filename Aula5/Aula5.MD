@@ -97,10 +97,12 @@ ________________________________________________________________________________
 - Máscara padrão: 255.255.0.0 (ou /16 em CIDR)
 
 Para dividir em 16 blocos iguais, precisamos de uma máscara nova. Como são 16 blocos:
-![Equação Matemática](https://latex.codecogs.com/svg.image?2%5Ex%20%3D%2016%20%5Cimplies%20x%20%3D%20%5Clog_2%2816%29)
 
+- ![Equação Matemática](https://latex.codecogs.com/svg.image?2%5Ex%20%3D%2016%20%5Cimplies%20x%20%3D%20%5Clog_2%2816%29)
 
-16 + 4 = 20. 
+Somando o valor com o número atual de máscara:
+![Eq 2](![Expressão Matemática](https://latex.codecogs.com/svg.image?16%20%2B%204))
+
 Portanto, a máscara nova será 20.
 
 #### Detalhamento dos blocos:
