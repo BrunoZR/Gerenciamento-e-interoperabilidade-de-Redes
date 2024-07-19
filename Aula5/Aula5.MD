@@ -1,7 +1,5 @@
-1) Definindo o número de hosts por cada sub-rede.
-2^n 
-tira um da rede e do broadcast = 2^n - 2
-62
+- Definindo o número de hosts por cada sub-rede: 2^n 
+- Tira um da rede e do broadcast = 2^n - 2 = 62
 
 2) definindo a máscara da subrede
 140.25.0.0/*16* --> em vez de 16, pode ser 24/25
@@ -10,7 +8,7 @@ Os últimos 7 bits são utilizados para o host
 
 
 
-## Exercício1 : Um bloco de endereços é concedido a uma pequena empresa. Sabemos que um dos endereços é 205.16.37.39/28.
+## Exercício 1 : Um bloco de endereços é concedido a uma pequena empresa. Sabemos que um dos endereços é 205.16.37.39/28.
 ### A) Qual é o primeiro endereço do bloco (endereço da sub-rede)?
 
 PASSO 1: Identificar o endereço IP e a máscara de sub-rede:
