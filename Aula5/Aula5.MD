@@ -72,7 +72,7 @@ Aplicando a máscara de sub-rede ao endereço IP:
 11001101.00010000.00100101.00100111 (Endereço IP)
               AND
 11111111.11111111.11111111.11110000 (Máscara de sub-rede)
-____________________________________
+_______________________________________________________________________________________________________________________
 11001101.00010000.00100101.00100000 (Endereço final)
 ```
 
@@ -90,8 +90,9 @@ PASSO 5: Converter o endereço de broadcast de volta para decimal:
 ### Resposta:
 Portanto, o endereço de broadcast da sub-rede com o endereço IP 205.16.37.39/28 é 205.16.37.47.
 
+____________________________________________________________________________________________________________________
 
-### Exemplo de VLSM (Variable Length Subnet Masking) para a rede 140.25.0.0/16
+## Exercício 2 : Aplicando VLSM (Variable Length Subnet Masking) para a rede 140.25.0.0/16
 
 #### A) Dividir a rede em 16 blocos iguais
 - Rede inicial: 140.25.0.0/16
