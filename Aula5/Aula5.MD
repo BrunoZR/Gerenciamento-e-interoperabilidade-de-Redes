@@ -98,7 +98,7 @@ ________________________________________________________________________________
 
 Para dividir em 16 blocos iguais, precisamos de uma máscara nova. Como são 16 blocos:
 
-![Equação Matemática](https://latex.codecogs.com/svg.image?2%5Ex%20%3D%2016%20%5Cimplies%20x%20%3D%20%5Clog_2%2816%29)
+![Equação Matemática](https://latex.codecogs.com/svg.image?2%5Ex%20%3D%2016%20%5Cimplies%20x%20%3D%20%5Clog_2%2816%29%20%3D%204)
 
 Somando o valor com o número atual de máscara:
 ![Expressão Matemática](https://latex.codecogs.com/svg.image?16%20%2B%204)
