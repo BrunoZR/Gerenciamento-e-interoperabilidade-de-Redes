@@ -1,0 +1,29 @@
+A camada ip geralmente é dividida em duas : roteamento e dados
+
+Todo hospedeiro possuí um roteador default(gateway) . Dentro de uma rede local, sempre existe um roteador padrão, também chamado de roteador de origem, pois ele que envia os pacotes para outro roteador
+
+Roteamento global/centralizado          | calcula o caminho de menor custo entre uma origem e um destino usando conhecimento completo e global sobre a rede.
+algoritmo de roteamento descentralizado | cálculo do caminho de menor custo é realizado de modo iterativo e distribuído.
+Em algoritmos de roteamento estáticos   | as rotas mudam muito devagar ao longo do tempo, muitas vezes como resultado de intervenção humana.
+
+
+Rede : Estudo idealizado
+- Roteadores idênticos, rede plana
+Na prática : não se pode armazenar todos os destinos na tabela de roteamento (bilhões) , troca da tabela de roteamento inundaria os enlaces
+
+- Autonomia administrativa : Cada administrador de rede pode querer controlar o roteamento em sua própria rede
+
+
+
+Abordagem da Internet para roteamento escalável:
+(Faltam algumas informações. Conferir no slide, também use o link https://sabercomlogica.com/pt/roteamento-intra-sa-e-inter-sa/ )
+AS'S : Grandes domínios de roteadores
+Protocolos mais comuns: 
+RIP : Vetores de distância atualizados a cada 30 segundos, não são muito utilizados. Não é escalável, funciona pra redes pequenas
+EIGRP :Baseado no vetor de distância
+OSPF : Monta um grafo global e toma decisão pelo algorítmo de Dijkstra. Mais robusto. Precisa conhecer a rede toda. Interação entre sistemas autônomos
+- Rodadores de borda : Rodam protocolos INTER-AS e INTRA-AS, em que:
+Protocolo INTRA-AS : determinar entradas para destinos dentro do AS
+Protocolo INTER-AS : Determinam entradas para destinos externos
+
+Kathara --> Kathara-labs --> Intradomain Routing --> cf(pasta de cima) --> Abre os slides que explica o funcionamento 
