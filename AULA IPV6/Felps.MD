@@ -32,3 +32,5 @@ Um ip é formado por 128 bits. Os enbdereços são divididos em oito grupos de 1
 2001:0db8:0100:000a:0000:00bc:abcd:0d0b
 
 fe80:0000:a299:9bff:fe18:50d1
+
+*DIFERENÇAS NOS TIPOS DE ENDEREÇOS DEFINIDOS EM IPV6 E IPV4: ESTUDAR!
