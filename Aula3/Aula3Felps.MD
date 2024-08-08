@@ -48,6 +48,9 @@ Torrent : Overlay , não é exatamente peer-to-peer por estar inserido na rede d
 * Internet : IP , ICMP
 * Enlace/link : DSL, SONET , 802.11(Wifi) , ETHERNET
 
+
+
+O Universal Plug and Play (UPnP) é um conjunto de protocolos de rede que permite que dispositivos na mesma rede descubram e se conectem automaticamente uns aos outros sem a necessidade de configuração manual. Foi projetado para facilitar a interconexão e a comunicação entre dispositivos de rede, como roteadores, impressoras, câmeras de segurança, consoles de jogos, smart TVs e outros dispositivos IoT (Internet of Things).
 ## Construindo uma rede simples no Kathará
 Inicialize o Kathará -- > Disco local C --> VMBOX
 Na pasta do kathará, crie uma pasta "Rede_simples"
