@@ -9,10 +9,16 @@ Torrent : Overlay , não é exatamente peer-to-peer por estar inserido na rede d
 
 
 ## Tipos de redes
-* Redes de acesso : Banda larga (conexão a cabo) , sem fio (wifi) , móveis (3g~4g~5g)
-* Redes de provedor de conteúdo : redes distribuídas próximas ao usuário para facilitar a circulação de arquivos muito requisitados, comos serviços streaming. Otimiza o desempenho da rede
-* Rede backbone : Intermédio/esquema de ligações centrais de um sistema de redes mais amplo, tipicamente de elevado desempenho e com dimensões continentais.
-* Rede empresarial 
+| **Tipo de Rede**           | **Função**                                                                 | **Exemplos**                                         | **Características**                                                                                                                                                              |
+|----------------------------|----------------------------------------------------------------------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Rede de Acesso**          | Conecta usuários finais à rede principal da operadora ou à Internet        | ADSL, fibra óptica, 4G/5G, Wi-Fi                      | Parte mais próxima do usuário final; primeiro ponto de acesso à rede mais ampla; inclui tecnologias como DSL, FTTH, redes móveis e Wi-Fi.                                         |
+| **Rede de Backbone**        | Fornece o principal caminho de comunicação entre diferentes redes          | Cabos submarinos, fibras ópticas de alta capacidade   | Enlaces de alta capacidade e baixa latência; conecta grandes centros de dados e redes de acesso; transporta dados em grandes distâncias.                                          |
+| **Rede de Provedor de Conteúdo (CDN)** | Otimiza a entrega de conteúdo para os usuários finais                       | Redes de servidores distribuídos, como Akamai, Cloudflare | Composta por servidores espalhados geograficamente; armazena cópias de conteúdo popular; entrega conteúdo com baixa latência e melhora a experiência do usuário.                   |
+| **Rede Empresarial**        | Conecta diferentes locais e departamentos dentro de uma empresa            | Redes locais (LAN), redes de área ampla (WAN), VPN    | Suporta comunicação interna; atende às necessidades de aplicativos empresariais e segurança de dados; inclui firewalls, VPNs, e soluções de rede em nuvem.                        |
+
+
+
+
 
 
 ## Tecnologias de rede: classificações baseadas no escopo da rede/distância:
