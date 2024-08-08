@@ -32,6 +32,16 @@ Torrent : Overlay , não é exatamente peer-to-peer por estar inserido na rede d
 | Internet      | "Rede de redes"| Tecnologias : Todas |
 
 
+
+## DNS - REGISTROS DE RECURSO
+| **Tipo de Registro** | **Função**                                                | **Exemplo**                             | **Uso**                                                                                                      |
+|----------------------|-----------------------------------------------------------|-----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Registro A**       | Associa um nome de domínio a um endereço IPv4             | `example.com -> 192.0.2.1`              | Tradução de nome de domínio para um endereço IP, permitindo a conexão a um servidor específico.              |
+| **Registro NS**      | Define quais servidores DNS são autoritativos para o domínio | `example.com -> ns1.example.com, ns2.example.com` | Indica os servidores DNS responsáveis por manter as informações do domínio.                                   |
+| **Registro CNAME**   | Cria um alias para outro nome de domínio                  | `www.example.com -> example.com`        | Facilita a manutenção de múltiplos nomes de domínio apontando para o mesmo endereço, utilizando um único registro A. |
+| **Registro MX**      | Direciona o tráfego de e-mail para servidores específicos | `example.com -> mail.example.com (prioridade 10)` | Define quais servidores de e-mail devem receber mensagens para um domínio, com suporte a prioridades.        |
+
+
 ## Protocolos de rede : Modelo OSI e TCP/IP
 * Aplicação : HTTP , SMTP , RTP , DNS
 * Transporte : TCP , UDP (Lembrar que um é orientado à conexão e o outro não. Um se preocupa com a ordem dos pacotes e o outro não, etc).
