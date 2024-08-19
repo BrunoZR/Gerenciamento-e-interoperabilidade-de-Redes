@@ -30,20 +30,21 @@
 
 
 ## Duas grandes pilhas de protocolos : OSI VS TCP/IP
-TCP/IP : Aplicação, Transporte , Rede , Enlace  OSI:Aplicação, Apresentação, Sessão, Transporte, Redes, Enlace(Link), Física
+- TCP/IP : Aplicação, Transporte , Rede , Enlace  
+- OSI:Aplicação, Apresentação, Sessão, Transporte, Redes, Enlace(Link), Física
 
-  A informação na internet é enviada por pacotes, um conjunto de bits organizados lidos pelos dispositivos.
-  Os pacotes passam primeiro pelo processo de encapsulamento. Existe muito mais do que a informação em si. Nele, estão informações sobre o protocolo de aplicação/transporte/redes/link
-  Ao chegar no destino, os pacotes passam pelo processo de desencapsulamento. Eles leêm as informações do link/redes/transporte/aplicação, e depois chegam na informação.
+- A informação na internet é enviada por pacotes, um conjunto de bits organizados lidos pelos dispositivos.
+- Os pacotes passam primeiro pelo processo de encapsulamento. Existe muito mais do que a informação em si. Nele, estão informações sobre o protocolo de aplicação/transporte/redes/link
+- Ao chegar no destino, os pacotes passam pelo processo de desencapsulamento. Eles leêm as informações do link/redes/transporte/aplicação, e depois chegam na informação.
 
 
-PROTOCOLOS PRINCIPAIS:
-Aplicação : HTTP , SMTP , RTP , DNS
-Transporte: TCP , UDP
-Redes/internet : IP e ICMP (existem protocolos internos que devem ser estudados)
-Enlace (Link)  : DSL, SONET, 802.11(wifi) , Ethernet (Existem protocolos internos que devem ser vistos, principalmente no Ethernet)
+***PROTOCOLOS PRINCIPAIS***:
+- Aplicação : HTTP , SMTP , RTP , DNS
+- Transporte: TCP , UDP
+- Redes/internet : IP e ICMP (existem protocolos internos que devem ser estudados)
+- Enlace (Link)  : DSL, SONET, 802.11(wifi) , Ethernet (Existem protocolos internos que devem ser vistos, principalmente no Ethernet)
 
-HIERARQUIA ISP (Internet Service Provider): 
+***HIERARQUIA ISP (Internet Service Provider)***: 
 ISP Tier 1
 - Os ISPs que pertencem a esse nível hierárquico – que é o mais alto – são chamados de provedores de backbone globais, ou também são conhecidos como Peers.
 - Eles têm uma infraestrutura completa e robusta que atua como backbone. Isto é, têm redes de conexão de fibra óptica que cruzam continentes e passam pelo interior dos oceanos, fazendo a conexão dos data centers de maior importância no mundo.
