@@ -30,12 +30,12 @@
 
 
 ## Duas grandes pilhas de protocolos : OSI VS TCP/IP
-TCP/IP : Aplicação, Transporte , Rede , Enlace
-OSI:     Aplicação, Apresentação, Sessão, Transporte, Redes, Enlace(Link), Física
+  TCP/IP : Aplicação, Transporte , Rede , Enlace
+  OSI:     Aplicação, Apresentação, Sessão, Transporte, Redes, Enlace(Link), Física
 
-A informação na internet é enviada por pacotes, um conjunto de bits organizados lidos pelos dispositivos.
-Os pacotes passam primeiro pelo processo de encapsulamento. Existe muito mais do que a informação em si. Nele, estão informações sobre o protocolo de aplicação/transporte/redes/link
-Ao chegar no destino, os pacotes passam pelo processo de desencapsulamento. Eles leêm as informações do link/redes/transporte/aplicação, e depois chegam na informação.
+  A informação na internet é enviada por pacotes, um conjunto de bits organizados lidos pelos dispositivos.
+  Os pacotes passam primeiro pelo processo de encapsulamento. Existe muito mais do que a informação em si. Nele, estão informações sobre o protocolo de aplicação/transporte/redes/link
+  Ao chegar no destino, os pacotes passam pelo processo de desencapsulamento. Eles leêm as informações do link/redes/transporte/aplicação, e depois chegam na informação.
 
 
 PROTOCOLOS PRINCIPAIS:
