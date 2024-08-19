@@ -45,17 +45,17 @@
 - Enlace (Link)  : DSL, SONET, 802.11(wifi) , Ethernet (Existem protocolos internos que devem ser vistos, principalmente no Ethernet)
 
 ***HIERARQUIA ISP (Internet Service Provider)***: 
-ISP Tier 1
-- Os ISPs que pertencem a esse nível hierárquico – que é o mais alto – são chamados de provedores de backbone globais, ou também são conhecidos como Peers.
-- Eles têm uma infraestrutura completa e robusta que atua como backbone. Isto é, têm redes de conexão de fibra óptica que cruzam continentes e passam pelo interior dos oceanos, fazendo a conexão dos data centers de maior importância no mundo.
-- Por terem esse tipo de atuação, de modo geral os ISPs nível 1 não atendem o cliente final ou empresas de pequeno porte, mas sim provedores nível 2.
-- Além disso, os provedores de internet que pertencem a essa hierarquia não contratam serviços de outras operadoras de rede, como é comum com os demais provedores. Afinal, eles têm alta capacidade de conexão, bem como redes seguras e rápidas. Assim, são mais autossuficientes em termos de estrutura.
+- ISP Tier 1
+  - Os ISPs que pertencem a esse nível hierárquico – que é o mais alto – são chamados de provedores de backbone globais, ou também são conhecidos como Peers.
+  - Eles têm uma infraestrutura completa e robusta que atua como backbone. Isto é, têm redes de conexão de fibra óptica que cruzam continentes e passam pelo interior dos oceanos, fazendo a conexão dos data centers de maior importância no mundo.
+  - Por terem esse tipo de atuação, de modo geral os ISPs nível 1 não atendem o cliente final ou empresas de pequeno porte, mas sim provedores nível 2.
+  - Além disso, os provedores de internet que pertencem a essa hierarquia não contratam serviços de outras operadoras de rede, como é comum com os demais provedores. Afinal, eles têm alta capacidade de conexão, bem como redes seguras e rápidas. Assim, são mais autossuficientes em termos de estrutura.
 
-ISP Tier 2
-- Os provedores que estão no nível Tier 2 são nomeados como regionais, pois têm uma atuação voltada a uma área ou região específica. 
-- Em geral, costumam trabalhar em um estado ou em um grupo de estados. Alguns até ampliam o foco de atuação e acabam trabalhando em um país todo
+- ISP Tier 2
+  - Os provedores que estão no nível Tier 2 são nomeados como regionais, pois têm uma atuação voltada a uma área ou região específica. 
+  - Em geral, costumam trabalhar em um estado ou em um grupo de estados. Alguns até ampliam o foco de atuação e acabam trabalhando em um país todo
 
-ISP Tier 3
-- Por fim, um ISP nível 3 é o provedor de internet local. Ele tem atuação focada em uma determinada localidade, como uma pequena cidade ou um bairro, e é indispensável para possibilitar que os usuários locais tenham acesso à internet.
-- Afinal, muitas vezes os provedores regionais não têm cobertura local, tampouco os provedores nível 1 que estão direcionados a outro tipo de público.
-- Portanto, os ISPs de nível 3 têm uma contribuição indiscutível no mercado de provedores, pois possibilitam que a conexão de internet seja mais difundida e levada a locais onde não há tanta oferta, como cidades de pequeno porte do interior.
+- ISP Tier 3
+  - Por fim, um ISP nível 3 é o provedor de internet local. Ele tem atuação focada em uma determinada localidade, como uma pequena cidade ou um bairro, e é indispensável para possibilitar que os usuários locais tenham acesso à internet.
+  - Afinal, muitas vezes os provedores regionais não têm cobertura local, tampouco os provedores nível 1 que estão direcionados a outro tipo de público.
+  - Portanto, os ISPs de nível 3 têm uma contribuição indiscutível no mercado de provedores, pois possibilitam que a conexão de internet seja mais difundida e levada a locais onde não há tanta oferta, como cidades de pequeno porte do interior.
