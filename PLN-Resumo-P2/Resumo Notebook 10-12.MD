@@ -2,7 +2,7 @@
 - Palavras representadas por vetores que tem 30 dimensões.
 - Permite operações aritméticas e lógicas entre eles.
 - Similaridade por cosseno entre duas palavras: Produto escalar: cos = a.b/|a|.|b|
--Inferência lógica para: odiar está para odiando, assim como amar está para...
+- Inferência lógica para: odiar está para odiando, assim como amar está para...
 
 
 **LangChain** :  framework projetado para desenvolver aplicações que utilizam Grandes Modelos de Linguagem de maneira integrada e eficiente.
