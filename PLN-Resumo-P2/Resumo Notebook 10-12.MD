@@ -13,13 +13,13 @@ Ex: Prompt com mensagem para o sistema e escolha de variável a ser a mensagem d
 Podemos então inicializar o modelo:
 - PromptTemplates são um conceito no LangChain projetado para auxiliar nessa transformação. Eles recebem a entrada bruta do usuário e retornam dados (um prompt) que estão prontos para serem passados para um modelo de linguagem.
 
--MessagesPlaceholder: modelo de prompt é responsável por adicionar uma lista de mensagens em um determinado local.
+- MessagesPlaceholder: modelo de prompt é responsável por adicionar uma lista de mensagens em um determinado local.
    - Classe usada no LangChain para representar um espaço reservado dentro de um modelo de prompt, onde mensagens dinâmicas podem ser inseridas posteriormente. Ele atua como um marcador que indica onde as mensagens devem ser incluídas na estrutura do prompt.
 
 - Coerção: Combina a resposta recebida de um prompttemplate para fazer outro prompttemplate.
 RunnableParallels facilitam a execução de múltiplos runnables em paralelo e o retorno da saída desses runnables como um mapa.
 
--LCEL, ou LangChain Expression Language, é uma linguagem declarativa desenvolvida para compor facilmente chains (cadeias de tarefas) dentro do ecossistema LangChain. Ela oferece uma interface unificada que simplifica a criação de pipelines complexos envolvendo modelos de linguagem, extração de dados, e outras operações relacionadas ao processamento de linguagem natural.
+- LCEL, ou LangChain Expression Language, é uma linguagem declarativa desenvolvida para compor facilmente chains (cadeias de tarefas) dentro do ecossistema LangChain. Ela oferece uma interface unificada que simplifica a criação de pipelines complexos envolvendo modelos de linguagem, extração de dados, e outras operações relacionadas ao processamento de linguagem natural.
   - O LCEL permite que os desenvolvedores conectem diferentes componentes, como prompts, modelos de linguagem, e parseadores de forma intuitiva usando operadores simples como o pipe (|). Isso não só facilita a leitura e a manutenção do código, mas também garante suporte completo para operações síncronas, assíncronas e de streaming, tornando-o ideal para aplicações de produção que exigem robustez e escalabilidade.
 - Runnables são uma abstração no ecossistema LangChain que permitem criar componentes reutilizáveis e encadeáveis, os quais executam tarefas específicas em um fluxo de dados. Eles são fundamentais para manipular o fluxo de informações em pipelines criados com LangChain, possibilitando a execução de operações em paralelo, o processamento de entradas e saídas, e a customização das funções usadas em um chain (cadeia).
   Aqui estão alguns pontos-chave sobre runnables:
