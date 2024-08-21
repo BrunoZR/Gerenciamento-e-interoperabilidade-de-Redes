@@ -57,3 +57,40 @@ chain = prompt | modelo
 resposta = chain.invoke({"texto": texto})
 ```
      
+
+* DADOS ESTRUTURADOS *
+- Dados que são organizados e formatados de maneira sistemática, permitindo fácil acesso, análise e manipulação.
+
+- Frequentemente é útil ter um modelo que retorne uma saída que corresponda a um esquema específico.
+
+- Método .with_structured_output()
+
+Esta é a maneira mais fácil e confiável de obter saídas estruturadas. O método with_structured_output() é implementado para modelos que fornecem APIs nativas para estruturar saídas, como chamadas de ferramentas/funções ou modo JSON/Pydantic, e utiliza essas capacidades internamente.
+
+- Escolhendo entre múltiplos esquemas: A maneira mais simples de permitir que o modelo escolha entre vários esquemas é criar um esquema "pai" que tenha um atributo do tipo Union:
+
+```
+from typing import Union
+# Pydantic
+class Piada(BaseModel):
+    """Piada para contar ao usuário."""
+
+    introducao: str = Field(description="A introdução da piada")
+    arremate: str = Field(description="O desfecho da piada")
+    avaliacao: Optional[int] = Field(
+        default=None, description="Quão engraçada é a piada, de 1 a 10"
+    )
+
+class RespostaConversacional(BaseModel):
+    """Responda de maneira conversacional. Seja gentil e prestativo."""
+
+    resposta: str = Field(description="Uma resposta conversacional à pergunta do usuário")
+
+class Resposta(BaseModel):
+    saida: Union[Piada, RespostaConversacional]
+     
+
+modelo_estruturado = modelo.with_structured_output(Resposta)
+
+resposta = modelo_estruturado.invoke("Me conte uma piada sobre gatos")
+```
