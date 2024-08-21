@@ -1,4 +1,4 @@
-*Engenharia de prompts*** é o processo de criar, ajustar e otimizar comandos (ou "prompts*") dados a modelos de linguagem para obter respostas mais precisas, úteis ou relevantes.
+*Engenharia de prompts* é o processo de criar, ajustar e otimizar comandos (ou "prompts*") dados a modelos de linguagem para obter respostas mais precisas, úteis ou relevantes.
 - Essa prática envolve a formulação cuidadosa de perguntas ou instruções para garantir que o modelo compreenda e responda de maneira adequada ao que está sendo solicitado.
 ```
 from langchain.prompts import PromptTemplate
