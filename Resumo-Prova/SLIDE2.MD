@@ -53,7 +53,7 @@
     - 3: Solicitação DHCP
     - 4: DHCP ACK
 
--NAT (Network Adress Translation): Responsável pelo intermédio da rede privada com a internet.
+- NAT (Network Adress Translation): Responsável pelo intermédio da rede privada com a internet.
 - IP'S PRIVADOS: três porções do espaço de endereço IP reservado pelo (RFC 1918) para uma rede privada:
 de 10.0.0.0 a 10.255.255.255 (10.0.0.0/8)
 de 172.16.0.0 a 172.31.255.255 (172.16.0.0/12)
