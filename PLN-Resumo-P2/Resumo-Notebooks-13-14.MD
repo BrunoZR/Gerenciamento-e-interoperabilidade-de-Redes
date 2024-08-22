@@ -94,3 +94,21 @@ modelo_estruturado = modelo.with_structured_output(Resposta)
 
 resposta = modelo_estruturado.invoke("Me conte uma piada sobre gatos")
 ```
+
+
+
+
+- Few-shot prompting: Técnica onde se fornecem alguns exemplos  no prompt para guiar o modelo na geração de respostas. Em vez de treinar o modelo com uma nova base de dados completa, você apenas inclui alguns exemplos relevantes diretamente no prompt.
+
+
+* EXTRAÇÃO DE INFORMAÇÃO *
+Extração de Informação (EI) é o processo de identificar e extrair dados estruturados a partir de texto não estruturado. 
+- Passo 1: Schema : Descrever quais informações extraídas
+- Passo 2: Extator: Como as informações serão extraídas (Definir um prompt)
+
+- Como lidar com textos longos ao realizar a extração?
+     - Quando trabalhar com arquivos, como PDFs, é provável que você encontre texto que excede a janela de contexto do seu modelo de linguagem. Para processar esse texto, considere estas estratégias:
+     
+     - Mudar o LLM: escolha um LLM diferente que suporte uma janela de contexto maior.
+     - Força Bruta: divida o documento em partes e extraia o conteúdo de cada parte.
+     - RAG (Retrieval-Augmented Generation): divida o documento em partes, indexe as partes e extraia conteúdo apenas de um subconjunto de partes que pareçam "relevantes".
