@@ -1,7 +1,7 @@
 **ARQUITETURAS DE APLICAÇÃO DE REDE**
 - É projetada pelo programador e determina como a aplicacão é organizada nos vários sistemas finais.
 
-**ARQUITETURA DE REDE **
+**ARQUITETURA DE REDE**
 - Modelo cliente servidor: Hospedeiro fixo chamado servidor que atende requisições de outros hospedeiros. Muitas vezes um servidor precisa de auxílio para atender todas as requisições (Data center, Servidor de distribuição de conteúdo)
 - Modelo peer-to-peer : Como os hospedeiros podem assumir o comportamento de servidor e depois cliente, tem uma alta escalabilidade. 
 
